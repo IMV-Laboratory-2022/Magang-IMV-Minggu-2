@@ -275,11 +275,12 @@ Pada Autoencoder terdapat beberapa metrik yang dijadikan sebagai parameter dalam
      return tf.image.ssim(pred, gt, max_val=1.0)
    ```
 
-
 ---
 
-Code:
-- https://colab.research.google.com/drive/1_X3bvVTqXenRf-7Uz6lLxc3dOuDmxzd7?usp=sharing
+- Code:
+- Video:
+
+---
 
 Referensi:
 - https://github.com/aayush9753/ColorIt
