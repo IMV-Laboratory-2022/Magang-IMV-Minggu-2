@@ -11,7 +11,7 @@
 # Pengantar Autoencoder
 
 <p align="center">
-    <img src="contents/Auto Encoder.png"  width="360" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Auto%20Encoder.png"  width="360" style="vertical-align:middle">
 </p>
 
 Autoencoder adalah jenis jaringan saraf khusus yang dilatih untuk menyalin inputnya ke outputnya. Misalnya, diberikan gambar digit tulisan tangan, autoencoder pertama-tama mengkodekan gambar menjadi representasi laten dimensi yang lebih rendah (downsampling), kemudian menerjemahkan representasi laten kembali ke gambar (upsampling). Autoencoder belajar mengompresi data sambil meminimalkan kesalahan rekonstruksi.
@@ -27,7 +27,7 @@ Untuk mempelajari lebih lanjut tentang autoencoder, harap pertimbangkan untuk me
   Paper: [SCSNet: An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution](https://aaai-2022.virtualchair.net/poster_aaai528)
 
 <p align="center">
-    <img src="contents/Image Colorization.png"  width="480" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Image%20Colorization.png"  width="480" style="vertical-align:middle">
 </p>
 
 - Image Denoising
@@ -37,7 +37,7 @@ Untuk mempelajari lebih lanjut tentang autoencoder, harap pertimbangkan untuk me
   Paper: [Generative Adaptive Convolutions for Real-World Noisy Image Denoising](https://aaai-2022.virtualchair.net/poster_aaai4230)
 
 <p align="center">
-    <img src="contents/Image Denoising.png"  width="480" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Image%20Denoising.png"  width="480" style="vertical-align:middle">
 </p>
 
 - Image Compression
@@ -47,7 +47,7 @@ Untuk mempelajari lebih lanjut tentang autoencoder, harap pertimbangkan untuk me
   Paper: [Towards End-to-End Image Compression and Analysis with Transformers](https://arxiv.org/abs/2112.09300)
 
 <p align="center">
-    <img src="contents/Image Compression.jpg"  width="580" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Image%20Denoising.png"  width="580" style="vertical-align:middle">
 </p>
 
 - Super Resolution
@@ -57,7 +57,7 @@ Untuk mempelajari lebih lanjut tentang autoencoder, harap pertimbangkan untuk me
   Paper: [SCSNet: An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution](https://aaai-2022.virtualchair.net/poster_aaai528)
 
 <p align="center">
-    <img src="contents/Super Resolution.png"  width="480" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Super%20Resolution.png"  width="480" style="vertical-align:middle">
 </p>
 
 - Shadow Removal 
@@ -67,16 +67,10 @@ Untuk mempelajari lebih lanjut tentang autoencoder, harap pertimbangkan untuk me
   Paper: [Efficient Model-Driven Network for Shadow Removal](https://aaai-2022.virtualchair.net/poster_aaai196)
 
 <p align="center">
-    <img src="contents/Shadow Removal.png"  width="480" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Shadow%20Removal.png"  width="480" style="vertical-align:middle">
 </p>
 
-# Arsitektur Autoencoder (U-Net)
-
-<p align="center">
-    <img src="contents/U-NET.png"  width="840" style="vertical-align:middle">
-</p>
-
-UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari empat blok encoder dan empat blok decoder yang dihubungkan melalui sebuah jembatan (bridge).
+# Arsitektur Autoencoder
 
 1. Encoder
    
@@ -85,15 +79,15 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
    - Convolution layer adalah proses konvolusi citra input dengan filter yang menghasilkan `feature map`.
    
      <p align="center">
-        <img src="contents/conv.png"  width="540" style="vertical-align:middle">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/conv.png"  width="540" style="vertical-align:middle">
      </p>
      <p align="center">
-        <img src="contents/conv stride 1 pad 0.gif" alt="convolution" width="360" style="vertical-align:left">
-        <img src="contents/conv stride 1 pad 1.gif" alt="convolution" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/conv%20stride%201%20pad%200.gif" alt="convolution" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/conv%20stride%201%20pad%201.gif" alt="convolution" width="360" style="vertical-align:left">
      </p>
      <p align="center">
-        <img src="contents/conv stride 2 pad 0.gif" alt="convolution" width="360" style="vertical-align:left">
-        <img src="contents/conv stride 2 pad 1.gif" alt="convolution" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/conv%20stride%202%20pad%200.gif" alt="convolution" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/conv%20stride%202%20pad%201.gif" alt="convolution" width="360" style="vertical-align:left">
      </p>
      
      ```python
@@ -110,7 +104,7 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
    - Batch Normalization berperan untuk mengurangi pergeseran kovarian atau menyamakan distribusi setiap nilai input yang selalau berubah karena perubahan pada layer sebelumnya selama proses training.
 
      <p align="center">
-         <img src="contents/batchnorm.png" width="480" style="vertical-align:left">
+         <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/batchnorm.png" width="480" style="vertical-align:left">
      </p>
 
      ```python
@@ -120,8 +114,8 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
    - Pooling layer berperan untuk memperkecil dimensi feature image (downsampling) dan menyimpan informasi penting.
      
      <p align="center">
-        <img src="contents/max pol stride 1 pad 1.gif" alt="convolution" width="360" style="vertical-align:left">
-        <img src="contents/max pol stride 2 pad 1.gif" alt="convolution" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/max%20pol%20stride%201%20pad%201.gif" alt="convolution" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/max%20pol%20stride%202%20pad%201.gif" alt="convolution" width="360" style="vertical-align:left">
      </p>
 
      ```python
@@ -139,7 +133,7 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
      
    - Fungsi aktivasi merupakan fungsi yang digunakan pada jaringan saraf untuk mengaktifkan atau tidak mengaktifkan neuron. Karakteristik yang harus dimiliki oleh fungsi aktivasi jaringan backpropagation antara lain harus kontinyu, terdiferensialkan, dan tidak menurun secara monotonis (monotonically non-decreasing).
      <p align="center">
-        <img src="contents/Fungsi Aktivasi.gif" width="480" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Fungsi%20Aktivasi.gif" width="480" style="vertical-align:left">
      </p>
    
      ```python
@@ -175,7 +169,7 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
 
 2. Bridge
    <p align="center">
-        <img src="contents/Bridge.png"  width="256" style="vertical-align:middle">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Bridge.png"  width="256" style="vertical-align:middle">
    </p>
 
    Bridge menghubungkan encoder dan jaringan decoder dan melengkapi aliran informasi.
@@ -198,15 +192,15 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
    - Conv2DTranspose berperan untuk upsampling (menambah dimensi) dan menerapkan blok konvolusi.
      
      <p align="center">
-        <img src="contents/transp conv.png"  width="540" style="vertical-align:middle">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/transp%20conv.png"  width="540" style="vertical-align:middle">
      </p>
      <p align="center">
-        <img src="contents/transposed conv stride 1 pad 0.gif" width="360" style="vertical-align:left">
-        <img src="contents/transposed conv stride 1 pad 1.gif" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/transposed%20conv%20stride%201%20pad%200.gif" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/transposed%20conv%20stride%201%20pad%201.gif" width="360" style="vertical-align:left">
      </p>
      <p align="center">
-        <img src="contents/transposed conv stride 2 pad 0.gif" width="360" style="vertical-align:left">
-        <img src="contents/transposed conv stride 2 pad 1.gif"  width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/transposed%20conv%20stride%202%20pad%200.gif" width="360" style="vertical-align:left">
+        <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/transposed%20conv%20stride%202%20pad%201.gif"  width="360" style="vertical-align:left">
      </p>
      
      ```python
@@ -252,7 +246,7 @@ UNET adalah arsitektur jaringan encoder-decoder berbentuk U, yang terdiri dari e
 4. Output
 
    <p align="center">
-    <img src="contents/Conv 1x1.png"  width="256" style="vertical-align:middle">
+    <img src="https://github.com/IMV-Laboratory-2022/Autoencoder/blob/main/contents/Conv%201x1.png"  width="256" style="vertical-align:middle">
    </p>
    
    Output dari decoder terakhir melewati konvolusi 1x1 dengan aktivasi sigmoid. Fungsi aktivasi sigmoid mewakili klasifikasi berdasarkan piksel. Data yang kita miliki mempunyai rentang dari 0 sampai 1 (sudah ternomalisasi), activation function menggunakan sigmoid yang mempunyai rentang dari 0 sampai 1.
