@@ -277,6 +277,7 @@ Pada Autoencoder terdapat beberapa metrik yang dijadikan sebagai parameter dalam
 
 ---
 - Code: [Text Background Cleaning](https://colab.research.google.com/drive/102jalbgtfxojTVehuu00_4pz0n217a_9?usp=sharing)
+- [Pengumpulan Magang 2](https://forms.gle/2hcWMBXrbfsiG2wi9)
 ---
 
 Referensi:
